@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Open+Sans&family=Patrick+Hand&display=swap');
+
+.containerFooter {
+    margin-top: 200px;
+    border-top: 1px black solid;
+    height: 300px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.columnTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px auto auto auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.innerColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 40%;
+    margin: 30px 160px auto auto;
+}
+
+.social {
+    width: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.innerSecondColumn {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    margin: 30px 140px auto auto;
+    text-align: center;
+}
+
+.adresse {
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    margin: 30px auto auto auto;
+    text-align: center;
+    justify-content: center;
+}

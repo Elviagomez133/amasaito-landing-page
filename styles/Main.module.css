@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&family=Open+Sans&family=Patrick+Hand&display=swap');
+
+.mainTitle {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 65%;
+}
+
+.photo {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+  
+.photo:hover {
+clip-path: circle(45%);
+}
+
+.imageTitle {
+    font-family: 'Dancing Script', cursive;
+}
